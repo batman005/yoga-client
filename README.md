@@ -24,15 +24,10 @@ CompletePayment and Succesfull registraion UI
 If email or mobileno  already exist in database then it show a popup error 
 ![emailnumberexist](https://user-images.githubusercontent.com/51878340/208254919-55a93205-2c02-40ac-8a0d-ca014f174d09.png)
 
-Update batch of a person by email id after a month(30days) if a person wants to change his batch he have to wait for 30 days after his joining
+Update batch of a person by email id
 ![updateform](https://user-images.githubusercontent.com/51878340/208254955-ca2ecb7a-1250-49ef-a4bc-f47817ad7453.png)
 
-
-
-
-
-
-
+if a person wants to change his batch he/she have to wait for 30 days.
 
 ## Available Scripts
 
