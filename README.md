@@ -27,7 +27,7 @@ If email or mobileno  already exist in database then it show a popup error
 Update batch of a person by email id
 ![updateform](https://user-images.githubusercontent.com/51878340/208254955-ca2ecb7a-1250-49ef-a4bc-f47817ad7453.png)
 
-if a person wants to change his batch he/she have to wait for 30 days.
+In the API, I have implemented a condition that checks if the CURRENT_DATE is less than the expiration date of the student's enrollment. If this is the case, a popup message is displayed indicating that the student must stay in their current batch for the current month. If the CURRENT_DATE is greater than the expiration date, the student's batch is updated. This allows the API to enforce the rule that a student must complete their current enrollment period before switching to a new batch.
 
 ## Available Scripts
 
