@@ -1,10 +1,12 @@
 ##yoga-client(front-end)
 
-I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions and managed the form fields using the useState hook in React. I have used axios to send HTTP requests, and I have Dockerized the front-end by creating a Docker container for it.
+I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions and managed the form fields using the useState hook in React. I have used axios to send HTTP requests.
 
 I have deployed the app on Netlify. Here is the live link:
 
 https://yoga-client-app.netlify.app/
+
+I have Dockerized the front-end(client-side) by creating a Docker container for it.
 
 
 if you want to see the backend code and documentation (ER diagram)
