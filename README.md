@@ -14,7 +14,7 @@ Update batch of a person by email id after a month(30days)
 
 I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions and managed the form fields using the useState hook in React. I have used axios to send HTTP requests, and I have Dockerized the front-end by creating a Docker container for it.
 
-i have deployed the app in Netlify.this is the live link
+I have deployed the app on Netlify. Here is the live link:
 
 https://yoga-client-app.netlify.app/
 
@@ -31,6 +31,9 @@ https://github.com/batman005/yoga-server
 ## Available Scripts
 
 In the project directory, you can run:
+for running locally in your system
+
+### `npm install`
 
 ### `npm start`
 
