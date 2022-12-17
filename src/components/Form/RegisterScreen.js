@@ -178,7 +178,7 @@ const RegisterScreen = () => {
                     </Form.Group>
                     <Form.Group controlId='dob'>
                         <Form.Label>Date of Birth</Form.Label>
-                        <Form.Control type='date' value={form.dob} placeholder='Enter Date of Birth'
+                        <Form.Control placeholder='DD-MM-YYYY' type='date' value={form.dob} 
                             onChange={(e) => setField('dob', e.target.value)}
                             isInvalid={!!errors.dob}>
                         </Form.Control>
