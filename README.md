@@ -1,6 +1,10 @@
 ##yoga-client(front-end)
 
-I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions and managed the form fields using the useState hook in React. I have used axios to send HTTP requests.
+I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions, including a validation to ensure that the age of the student must be between 18 and 65, all the fields have been filled, and the person must pay the 500/- rs fee for the month and select a particular batch for classes. I have managed the form fields using the useState hook in React and used axios to send HTTP requests.
+
+also I have implemented a mock function called CompletePayment() that accepts the details of a user and payment, processes the payment for students, and displays a success notification using React Toastify."
+
+
 
 I have deployed the app on Netlify. Here is the live link:
 
