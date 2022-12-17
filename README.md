@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+##yoga-client(front-end)
+registerform UI
+![registerform](https://user-images.githubusercontent.com/51878340/208254883-87e00fa6-09ac-4d3d-94a3-c73b4efc4191.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CompletePayment and Succesfull registraion UI 
+![completepaymentandregistered](https://user-images.githubusercontent.com/51878340/208254902-de8bce4a-d501-449c-8db2-3bc15266b0bc.png)
+
+If email or mobileno  already exist in database then it show a popup error 
+![emailnumberexist](https://user-images.githubusercontent.com/51878340/208254919-55a93205-2c02-40ac-8a0d-ca014f174d09.png)
+
+Update batch of a person by email id after a month(30days)
+![updateform](https://user-images.githubusercontent.com/51878340/208254955-ca2ecb7a-1250-49ef-a4bc-f47817ad7453.png)
+
+
+I have implemented UI using react-bootstrap and added notification functionality using react-toastify. I have also implemented form validation using regular expressions and managed the form fields using the useState hook in React. I have used axios to send HTTP requests, and I have Dockerized the front-end by creating a Docker container for it.
+
+i have deployed the app in Netlify.this is the live link
+
+https://yoga-client-app.netlify.app/
+
+
+if you want to see the backend code and documentation (ER diagram)
+please visit this link:-
+https://github.com/batman005/yoga-server
+
+
+
+
+
 
 ## Available Scripts
 
